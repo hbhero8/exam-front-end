@@ -10,7 +10,7 @@
 .todos{
   margin-top: 20px;
   background-color: white;
-  padding: 20px 20px 40px 20px ;
+  padding: 20px 20px 20px 20px ;
 }
 .scores{
   background-color: #7e51b6 ;
@@ -36,11 +36,15 @@
   align-items: center;
   padding-bottom: 20px;
 }
-
+.iconButton{
+  border: none;
+  background-color: white  ;
+}
 .formcontrol{
   border: none;
   border-bottom: 1px #AF7EEB solid !important;
   padding: 20px;
+  margin-bottom: 10px;
 }
 .addButton{
   margin-top: -25px;
