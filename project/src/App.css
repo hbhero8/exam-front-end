@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.todos{
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px 20px 40px 20px ;
+}
+.scores{
+  background-color: #7e51b6 ;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+.icons {
+  width: 15px;
+}
+.icon {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+}
+.title{
+  border: 1px black ;
+  background-color: #AF7EEB ;
+  margin: 0;
+  padding: 20px;
+  color: white;
+  display: flex;
+  gap: 80px ;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.formcontrol{
+  border: none;
+  border-bottom: 1px #AF7EEB solid !important;
+  padding: 20px;
+}
+.addButton{
+  margin-top: -25px;
+  border: none;
+  background-color: #AF7EEB;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: white;
+}
